@@ -7,6 +7,7 @@ export interface DarkNightModeStylePropsType {
 }
 
 export interface UserCardProps {
+    image: String,
     darkNightModeStyle: DarkModeClasses,
     name: string,
     email: string,
