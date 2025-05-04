@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "declaration": true,  // Enable generating .d.ts files
+    "outDir": "./dist",   // Output directory for built files
     "baseUrl": ".",
     "paths": {
       "@/*": [
@@ -18,8 +20,6 @@
       "@constants/*": [
         "src/constants/*"
       ],
-
-      
       "@utils/*": [
         "src/utils/*"
       ]
@@ -29,6 +29,7 @@
   "include": [
     "src"
   ],
+  
   "references": [
     {
       "path": "./tsconfig.app.json"
