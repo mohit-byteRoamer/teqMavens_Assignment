@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body #paragraph {
+    background-color: red;
+}
+
+#paragraph {
+    background-color: green;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+	display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+.no-scrollbar {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.counterInput .ant-input-affix-wrapper {
+    padding: 4px 2px 4px 4px !important;
+}
+
+/* ANTD TABLE */
+
+.ant-table-content .ant-table-thead th {
+    padding: 8px !important;
+    font-weight: 500 !important;
+    font-size: .8rem  !important;
+
+}
+
+.ant-table-content .ant-table-tbody td {
+    padding: 8px !important;
+}

@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@layouts/*": [
+        "src/layouts/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@theme/*": [
+        "src/theme/*"
+      ],
+
+      "@constants/*": [
+        "src/constants/*"
+      ],
+
+      
+      "@utils/*": [
+        "src/utils/*"
+      ]
+    },
+    // Other compiler options like "target", "module", etc.
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
